@@ -177,7 +177,7 @@ function processScene(scene: Scene, inheritProps = {}, clones = []) {
   }
 
   const children = !Array.isArray(parentProps.children) ? [parentProps.children] : [...parentProps.children];
-  // add clone scenes
+  // add clone scenes hellasdasdasdad
   if (!drawer && !tabs) {
     children.push(...clones);
   }
